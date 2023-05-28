@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+    background-color: #594BF0;
+    max-width: 1900px;
+    max-height: 40vh;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-position: 197px -30px;
+    background-size: 120px;
+    font-size: 14px;
+}
+
+ul {
+    background-color: var(--cor-de-fundo);
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    transition: background 0.1s;
+}
+
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li:hover ul {
+    background-color: var(--cor-de-fundo);
+    background-image: none;
+}
+
+.menu ul ul {
+    width: 200px;
+    height: 420px;
+}
+
+.menu ul ul li a {
+    display: block;
+}
+
+.menu ul li a:hover {
+    transition: 1s;
+    background-color: #413B7F;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+}
+
+.pd {
+    height: 100px;
+}
+
+.bloco {
+    background-image: url(../images/proto_chip-7732459_1920.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.legenda {
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+h1 {
+    margin-left: 450px;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.text1 {
+    margin-left: 40px;
+    list-style-type: none;
+    padding-top: 0px;
+}
+
+.text2 {
+    margin-left: 520px;
+    list-style-type: none;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.pc {
+    background-color: #ffffff;
+    display: block;
+    border: none;
+    margin-top: 8px;
+    width: 170px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.rod_foot {
+    background-color: #110e14;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rodape .card a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.rodape .card2 a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rod {
+    font-size: 20px;
+    margin-left: -18px;
+}
+
+.rod3 {
+    font-size: 20px;
+}
+
+.foot {
+    margin-top: 20px;
+}
+
+.rodape .card a {
+    padding: 5px;
+}
+
+.pesquisa {
+    position: absolute;
+    left: 89%;
+    top: 5%;
+    transform: translate(-50%, -40%);
+    background: #110e14;
+    border-radius: 40px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.pesq {
+    color: rgb(159, 216, 216);
+    float: right;
+    width: 40px;
+    border-radius: 50%;
+    background: #110e14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.pe {
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 1px;
+    color: white;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0;
+}
+
+.pesquisa:hover .pe {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.pesquisa:hover .pesq {
+    background: white;
+}

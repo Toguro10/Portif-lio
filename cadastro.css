@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #594BF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    max-height: 40vh;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.frm {
+    background: #413B7F;
+    color: #000;
+    display: inline-block;
+    width: 310px;
+    height: 290px;
+    min-width: 100px;
+    min-height: 10vh;
+    color: #ffff;
+    border-radius: 8px;
+}
+
+legend {
+    margin-left: 100px;
+    font-size: 30px
+}
+
+.dav {
+    padding: 10px;
+}
+
+.usuario {
+    color: #fff;
+}
+
+.email {
+    color: #fff;
+}
+
+.senha {
+    color: #fff;
+}
+
+.telefone {
+    color: #fff;
+}
+
+.codnome {
+    font-family: "Poppins", sans-serif;
+    padding: 2px;
+    border-radius: 2px;
+    border: none;
+    margin-left: 6px;
+    outline: none;
+}
+
+.open {
+    font-family: "Poppins", sans-serif;
+    padding: 2px;
+    border-radius: 2px;
+    border: none;
+    margin-left: 13px;
+    outline: none;
+}
+
+.pass {
+    font-family: "Poppins", sans-serif;
+    padding: 1px;
+    border-radius: 2px;
+    border: none;
+    margin-left: 16px;
+    outline: none;
+}
+
+.pass2 {
+    font-family: "Poppins", sans-serif;
+    padding: 1px;
+    border-radius: 2px;
+    border: none;
+    margin-left: 65px;
+    outline: none;
+}
+
+.nun {
+    font-family: "Poppins", sans-serif;
+    padding: 2px;
+    border-radius: 2px;
+    border: 2px;
+    margin-left: 5px;
+    outline: none;
+}
+
+.bot {
+    border: none;
+    padding: 5px;
+    color: #000;
+    border: none;
+    font-family: serif;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: cornflowerblue;
+}
+
+.bot .en {
+    text-decoration: none;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+}
+
+.bot:hover {
+    background-color: rgb(22, 201, 22);
+    transition: background 0.9s;
+}
+
+.bot .en:hover {
+    color: #fff;
+    transition: color 0.9;
+}
+
+.logar {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.logar:hover {
+    color: rgb(25, 235, 25);
+}
