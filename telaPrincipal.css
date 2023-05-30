@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    border-radius: 5px;
+    border: none;
+    
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+    background-color: #594BF0;
+    max-width: 1200px;
+    max-height: 40vh;
+    min-width: 100vw;
+    min-height: 40vh;
+  
+}
+
+.pd {
+    height: 100px;
+}
+
+.bloco{
+    display: flex;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    min-width: 100px;
+    min-height: 40vh;
+}
+
+.img1{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    
+   
+}
+
+.img2{
+    margin-top: 20px;
+    width: 300px ;
+    height: 200px;
+    display: inline-block;
+    
+}
+
+.img3{
+    width: 300px; 
+    height: 200px; 
+    
+}  
+
+.img4{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+   
+}
+.img5{
+    width: 300px;
+    height: 200px;
+}
+
+.img6{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+
+}
+
+.legenda1 a{
+    color: #fff;
+    margin-left: 75px;
+    font-size: 26px;
+}
+
+.legenda2 a{
+    color: #fff;
+    margin-left: 60px;
+    font-size: 26px;
+    
+}
+
+ .menu{
+    width: 100%;
+    padding: 25px;
+    background-color: #110e14;
+    min-width: 300px;
+    min-height: 5vh;
+    
+    
+ }
+ .menu .lest ul li {
+    display: inline-block;
+     padding: 10px;
+   
+ }
+
+ .menu .lest ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: none;
+    transition: background 1s;
+    background:none;
+ }
+ 
+ .menu .lest ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 15px;
+ }
+
+
+label{
+        text-decoration: none;
+        text-align: none;
+        color: #fff;
+        padding: 10px;
+}
+
+.legenda a{
+    margin-left: 50px;
+    width: 40%;
+   color: #fff;
+   text-decoration: none;
+    padding-top: 70px;
+    padding: 10px;
+    font-size: 26px;
+}
+
+
+.legenda {
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 40%;
+    min-width: 100px;
+    min-height: 40vh;
+    padding-top: 70px;
+    padding: 20px;
+}
+
+
+.legenda1 {
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 40%;
+    min-width: 100px;
+    min-height: 40vh;
+    padding-top: 70px;
+    padding: 10px;
+}
+
+.legenda2{
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 40%;
+    min-width: 10px;
+    min-height: 10vh;
+    padding-top: 70px;
+    padding: 10px;
+}
+
+.rod_foot {
+    background-color: #110e14;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rodape .card a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.rodape .card2 a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rod {
+    font-size: 20px;
+    margin-left: -18px;
+}
+
+.rod3 {
+    font-size: 20px;
+}
+
+.foot {
+    margin-top: 300px;
+    
+}
+
+.foot .rod_foot .rodape .card p a {
+    padding: 10px;
+}
+
+.pesquisa {
+    position: absolute;
+    left: 89%;
+    top: 5%;
+    transform: translate(-50%, -40%);
+    background: #fff;
+    border-radius: 40px;
+    padding: 10px;
+    opacity: 1;
+    min-width: 1px;
+    min-height: 1vh;
+}
+
+.pesq {
+    float: right;
+    width: 30px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.pe {
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 1px;
+    color:black;
+    font-size: 14px;
+    transition: 0.3s;
+    line-height: 20px;
+    width: 0;
+}
+
+.pesquisa:hover .pe {
+    width: 240px;
+    padding: 2px;
+}
+
+.pesquisa:hover .pesq {
+    background: white;
+}
